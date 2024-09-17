@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "webauthn/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "webauthn"
+  spec.name          = "nov-webauthn"
   spec.version       = WebAuthn::VERSION
   spec.authors       = ["Gonzalo Rodriguez", "Braulio Martinez"]
   spec.email         = ["gonzalo@cedarcode.com", "braulio@cedarcode.com"]
